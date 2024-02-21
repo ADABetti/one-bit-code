@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h2>Matrícula para aulas de inglês particulares</h2>
+
+    <form>
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <br />
+      <div>
+        <label for="password">- Password:</label>
+        <input type="password" id="password" name="password" />
+      </div>
+      <br />
+      <div>
+        <label for="nasc">Data de Nascimento:</label>
+        <input type="date" name="nasc" id="nasc" />
+        <label for="file">- Foto:</label>
+        <input type="file" name="file" id="file" />
+      </div>
+      <br />
+      <div>
+        <label for="nacionalidade">Nacionalidade</label>
+        <select name="nacionalidade" id="nacionalidade">
+          <option value="english">English</option>
+          <option value="português">Português</option>
+          <option value="italiano">Italiano</option>
+          <option value="espanol">Español</option>
+        </select>
+        Gênero:
+        <label for="female">F</label>
+        <input type="radio" id="feminino" value="feminino" name="genero" />
+        <label for="male">M</label>
+        <input type="radio" id="masculino" value="masculino" name="genero" />
+      </div>
+      <br />
+      <div>
+        <label for="qualidades">Suas principais qualidades:</label>
+        <br />
+        <input
+          type="checkbox"
+          id="qualidade1"
+          name="qualidade1"
+          value="Inteligência"
+        />
+        <label for="qualidade1">Inteligência |</label>
+
+        <input
+          type="checkbox"
+          id="qualidade2"
+          name="qualidade2"
+          value="resiliencia"
+        />
+        <label for="qualidade2">Resiliência |</label>
+
+        <input
+          type="checkbox"
+          id="qualidade3"
+          name="qualidade3"
+          value="fisico"
+        />
+        <label for="qualidade3">Preparo físico |</label>
+
+        <input
+          type="checkbox"
+          id="qualidade4"
+          name="qualidade4"
+          value="educacao"
+        />
+        <label for="qualidade4">Educação</label>
+      </div>
+      <br />
+      <textarea
+        name="reason"
+        id="reason"
+        cols="25"
+        rows="10"
+        placeholder="Por que você quer estudar inglês?"
+      ></textarea>
+      <br />
+      <br />
+      <input type="submit" value="Inscrever" />
+    </form>
+  </body>
+</html>

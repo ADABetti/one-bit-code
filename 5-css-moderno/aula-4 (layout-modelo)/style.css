@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #0b0b0b;
+}
+
+.container {
+  background-color: #24252e;
+  min-height: 100vh;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #0bfff3;
+  background-color: #ffffff;
+  color: black;
+}

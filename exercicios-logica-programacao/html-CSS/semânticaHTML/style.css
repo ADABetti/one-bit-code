@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: rgb(26, 25, 24);
+  --header-color: rgb(66, 171, 18);
+  --nav-color: rgb(222, 59, 86);
+  --main-text-color: #ffffff;
+  --sidebar-color: rgb(35, 203, 147);
+  --footer-color: rgb(255, 166, 0);
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--main-bg-color);
+  font-size: 1rem;
+}
+
+header {
+  background-color: var(--header-color);
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: var(--nav-color);
+  padding: 0.75rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--main-text-color);
+  margin-right: 0.5rem;
+  font-size: small;
+}
+
+.links,
+form {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  padding: 0.25rem;
+  box-shadow: 2px 2px 0 black;
+}
+
+button {
+  padding: 0.25rem;
+  border: 1px solid var(--main-bg-color);
+  box-shadow: 2px 2px 0 black;
+}
+
+section {
+  color: var(--main-text-color);
+  padding: 0.75rem;
+}
+
+section h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+article {
+  margin: 1rem auto;
+  font-size: small;
+}
+
+aside {
+  background-color: var(--sidebar-color);
+  padding: 1rem;
+}
+
+aside li {
+  margin: 0.5rem;
+  list-style: none;
+  text-align: center;
+}
+
+aside a {
+  color: black;
+}
+
+footer {
+  padding: 0.75rem;
+  color: white;
+  text-align: center;
+  font-size: small;
+  background-color: var(--footer-color);
+}
+
+@media screen and (min-width: 544px) {
+  nav {
+    padding: 0.75rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .links,
+  form {
+    margin-bottom: 0;
+  }
+
+  nav a {
+    font-size: medium;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  section {
+    padding: 0.75rem 3rem;
+  }
+
+  article {
+    font-size: medium;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,11 @@
+/*#title {
+  color: mix(rgb(92, 168, 0), blue, 10%);
+}
+*/
+.title {
+  height: 100vh;
+  background-color: black;
+  color: text-color(black);
+}
+
+/*# sourceMappingURL=style.css.map */

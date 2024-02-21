@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --bg-color: #212529;
+  --bg-board: rgb(16, 233, 241);
+  --font-color: #f1f5f9;
+  --bg-winner: rgb(33, 200, 47);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  height: 100vh;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#gameBoard {
+  display: grid;
+  grid-template-columns: 6rem 6rem 6rem;
+  grid-template-rows: 6rem 6rem 6rem;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#gameBoard span {
+  background-color: transparent;
+  border: 2px solid var(--font-color);
+
+  display: grid;
+  place-content: center;
+  font-size: 5rem;
+}
+
+#gameBoard span.win {
+  background-color: var(--bg-winner);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

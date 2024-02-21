@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.header {
+  background: rgb(43, 218, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(43, 218, 232, 1) 0%,
+    rgba(48, 167, 126, 1) 35%,
+    rgba(24, 34, 163, 1) 62%,
+    rgba(179, 0, 255, 1) 100%
+  );
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 60px;
+  color: #ffffff;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Permanent Marker", cursive;
+}
+
+button {
+  padding: 10px;
+  font-size: small;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  border: 1px solid black;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button:hover {
+  background-color: aqua;
+  border: 1px solid purple;
+  color: black;
+}

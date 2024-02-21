@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  padding: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(16, 15, 15, 0.789);
+  color: rgb(5, 223, 212);
+}
+
+h2 {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: rgba(0, 255, 94, 0.455);
+  border-radius: 5px;
+}
+
+#add-exp-btn {
+  background-color: rgb(209, 209, 208);
+}
+
+li {
+  line-height: 2rem;
+}
+
+#remove-row-btn {
+  padding: 0.25rem;
+  color: white;
+  background-color: rgb(231, 84, 48);
+}

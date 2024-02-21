@@ -1,0 +1,26 @@
+.classe1 ul {
+  background-color: red;
+}
+
+.classe1 li {
+  background-color: blue;
+}
+
+.classe1 {
+  ul {
+    background-color: rgb(190, 8, 145);
+  }
+
+  li {
+    background-color: green;
+  }
+
+  button {
+    background-color: lightblue;
+    cursor: pointer;
+    &:hover {
+      background-color: orange;
+      transition: 3s;
+    }
+  }
+}

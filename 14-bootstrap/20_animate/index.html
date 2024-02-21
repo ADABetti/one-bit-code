@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animate On Scroll</title>
+
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Depois bootstrap-->
+
+    <style>
+      body {
+        background-color: rgb(126, 117, 117);
+        color: white;
+        font-size: 40px;
+      }
+
+      .container {
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-aos="fade-up" class="container">
+      <p>Hello world!</p>
+    </div>
+
+    <div data-aos="fade-down" class="container">
+      <p>Bye bye world</p>
+    </div>
+
+    <div data-aos="flip-left" data-aos-duration="3000" class="container">
+      <p>Flip the world!</p>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

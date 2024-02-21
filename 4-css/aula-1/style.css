@@ -1,0 +1,25 @@
+h1 {
+  font-size: 60px;
+  color: #00ff00;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #ffffff;
+}
+
+h4 {
+  color: #ffffff;
+}
+
+ul {
+  border: 2px solid #ffff00;
+}
+
+li {
+  color: #aa00aa;
+}
+
+body {
+  background-image: url("75552.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,13 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.yellow-text {
+  color: #ffff00;
+}
+
+#blue-topic {
+  color: #7f9999;
+  font-size: 30px;
+}

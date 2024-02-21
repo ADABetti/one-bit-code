@@ -1,0 +1,26 @@
+* {
+  background-color: darkslategray;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  color: #f1c40f;
+}
+
+h1 {
+  color: white;
+  font-family: "Tilt Prism", cursive;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  color: #000000;
+  background-color: #f1c40f;
+  border: 2px solid black;
+}
+
+#astronomy-class {
+  color: #e74c3c;
+}

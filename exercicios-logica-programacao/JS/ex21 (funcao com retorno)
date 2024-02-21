@@ -1,0 +1,19 @@
+//função sem retorno
+function retornarUm() {
+  console.log(1);
+}
+let valor1 = retornarUm();
+console.log(valor1);
+
+// Função com retorno
+function retornarDois() {
+  return 2;
+}
+let valor2 = retornarDois();
+console.log(valor2);
+
+function retornarTexto(texto) {
+  return texto ? "Parâmetro é um texto" : "O tipo do parâmetro não é um texto";
+}
+
+console.log(retornarTexto(false));

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rumo a Marte - Onebitcode</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      background-image: url(./images/backgroundLp.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+
+    .form-body {
+      width: 450px;
+      height: auto;
+      background-color: #131212f1;
+    }
+
+    @media (max-width: 767px) {
+      body {
+        background-position: center;
+      }
+      .container {
+        width: 320px;
+      }
+    }
+  </style>
+
+  <body class="py-5 text-white">
+    <div class="container px-4 form-body">
+      <!--Formulário-->
+      <div class="form">
+        <!-- Imagem topo -->
+        <div class="row p-5">
+          <div class="col-auto mx-auto d-block"><img class="img-fluid" src="./images/logoOneBitDark.png" alt="" / style="width: 200px;"></div>
+        </div>
+        <!-- Imagem topo -->
+
+        <!--Nome-->
+        <div>
+          <p>1 - Qual é seu nome?</p>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Primeiro nome:</span>
+            <input class="form-control" type="text" id="first-name" placeholder="Digite aqui" />
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Sobrenome:</span>
+            <input class="form-control" type="text" id="last-name" placeholder="Digite aqui" />
+          </div>
+        </div>
+        <!--Nome-->
+
+        <!--Gênero-->
+        <p>2 - Qual é seu gênero?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="female" />
+          <label class="form-check-label" for="female">Feminino</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="male" />
+          <label class="form-check-label" for="male">Masculino</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gender" id="no-gender" />
+          <label class="form-check-label" for="no-gender">Prefiro não informar</label>
+        </div>
+        <!--Gênero-->
+        <!--Treinamentos-->
+        <p class="mt-3 mb-3">3 - Marque os treinamentos que você fez:</p>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="treinamento-basico-de-astronauta" />
+          <label class="form-check-label" for="treinamento-basico-de-astronauta">Treinamento básico de astronauta</label>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="treinamento-fisco-basico" />
+          <label class="form-check-label" for="treinamento-fisco-basico">Treinamento físico básico</label>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="teinamento-avancado-de-astronauta" />
+          <label class="form-check-label" for="teinamento-avancado-de-astronauta">Treinamento avançado de astronauta</label>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="teinamento-fisico-intenso" />
+          <label class="form-check-label" for="teinamento-fisico-intenso">Treinamento físico intenso</label>
+        </div>
+        <!--Treinamentos-->
+        <!--Qualidades-->
+        <p class="mt-3">4 - Quais você acha que são suas qualidades?</p>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" value="" id="proativo" />
+          <label class="form-check-label" for="proativo">Proativo</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" value="" id="resistente" />
+          <label class="form-check-label" for="resistente">Resistente</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" value="" id="nao-vomito-facil" />
+          <label class="form-check-label" for="nao-vomito-facil">Não vomito fácil</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" value="" id="nao-temo-marciano" />
+          <label class="form-check-label" for="nao-temo-marciano">Não temo marciano</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" value="" id="star-wars" />
+          <label class="form-check-label" for="star-wars">Já vi todos os star wars</label>
+        </div>
+        <!--Qualidades-->
+        <!--Botão de envio-->
+        <div class="text-center">
+          <button type="button" class="btn btn-outline-danger mb-3 mt-3">Enviar</button>
+        </div>
+        <!--Botão de envio-->
+      </div>
+    </div>
+    <!--Fim do formulário-->
+
+    <!--Footer-->
+    <p class="container-2 text-center footer mt-3">Feito por Alice Betti &copy;OneBitCode todos os direitos reservados - 2024</p>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>

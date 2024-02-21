@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+
+* {
+  color: white;
+}
+
+@import "./commonElements/variables.scss";
+
+@import "./commonElements/commonElements.scss";
+
+@import "./pages/falcon9.scss";
+
+@import "./pages/home.scss";
+
+@import "./pages/human_flight.scss";
+
+/*
+.container00.container01 {
+  background-image: url(../img/home/01.jpg);
+}
+
+.container01 {
+  height: 100vh;
+}
+
+.container00.container02 {
+  background-image: url(../img/home/02.jpg);
+}
+
+.container00.container03 {
+  background-image: url(../img/home/03.gif);
+}
+
+.container00.container04 {
+  background-image: url(../img/home/04.jpg);
+}
+
+.container00.container05 {
+  background-image: url(../img/falcon9/01.jpg);
+}
+
+.container05 {
+  height: 100vh;
+}
+
+.container06 {
+  background-image: url(../img/falcon9/02.jpg);
+}
+
+.container07 {
+  background-image: url(../img/falcon9/08.jpg);
+}
+
+.container08 {
+  background-image: url(../img/humanFlight/01.jpg);
+}
+.container09 {
+  background-image: url(../img/humanFlight/02.jpg);
+}
+.container10 {
+  background-image: url(../img/humanFlight/03.jpg);
+}
+.container11 {
+  background-image: url(../img/humanFlight/04.jpg);
+}
+.container12 {
+  background-image: url(../img/humanFlight/05.jpg);
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 100px;
+  margin-top: 5px;
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: white;
+}
+
+.falcon9 {
+  font-size: 6rem;
+}
+
+.title-padding {
+  padding-top: 200px;
+}
+
+.font-title {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+#carousel-item-1 {
+  background-image: url(../img/falcon9/03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#carousel-item-2 {
+  background-image: url(../img/falcon9/04.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#carousel-item-3 {
+  background-image: url(../img/falcon9/05.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#carousel-item-4 {
+  background-image: url(../img/falcon9/06.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#carousel-item-5 {
+  background-image: url(../img/falcon9/07.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container-content-01 h1 {
+  font-size: 120px;
+}
+
+.container-right {
+  margin-left: 55%;
+  margin-top: 15%;
+}
+
+.carouselSlide img {
+  height: 100vh;
+}
+
+.bottom {
+  background-color: black;
+  height: 85vh;
+  padding-top: 20%;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: white;
+}
+.overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 10%;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  color: grey;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #obcLogo {
+    max-width: 160px;
+  }
+  .title-padding {
+    padding-top: 35px;
+  }
+}
+*/

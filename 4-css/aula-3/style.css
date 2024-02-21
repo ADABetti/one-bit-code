@@ -1,0 +1,19 @@
+* {
+  background-color: #d3d3d3;
+}
+
+li a {
+  color: #ff0000;
+}
+
+li > a {
+  color: #00ff00;
+}
+
+h1 + h2 {
+  background-color: aqua;
+}
+
+a[href="/recibo"] {
+  font-size: 50px;
+}
